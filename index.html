@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Content Rewriting Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Content Rewriting & Translation</h1>
+
+  <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+
+  <div class="controls">
+    <select id="operation">
+      <option value="rewrite">Rewrite</option>
+      <option value="translate">Translate</option>
+    </select>
+
+    <input id="optionValue" placeholder="Style or Language">
+    <button onclick="processText()">Submit</button>
+  </div>
+
+  <h2>Result:</h2>
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

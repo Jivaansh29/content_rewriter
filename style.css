@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+.controls select,
+.controls input,
+.controls button {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#output {
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
